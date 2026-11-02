@@ -1,0 +1,7 @@
+# For Apache/cPanel hosting (e.g. Clook). Netlify ignores this file.
+Options -Indexes
+DirectoryIndex index.html
+
+RewriteEngine On
+# The bare subdomain has no page of its own: send visitors to the main author site.
+RewriteRule ^$ https://ianbatesauthor.com/ [R=302,L]
