@@ -3,7 +3,7 @@
 One Vercel site holding every book landing page used for Facebook ad tests.
 Each book gets its own folder; the folder name is the page's web address.
 
-Domain: `books.ianbatesauthor.com`, hosted on Vercel (DNS for ianbatesauthor.com is on Vercel; there is no main site at the bare domain). This repo also serves a GitHub Pages test at asherquinn.com (see `CNAME`).
+Domain: `books.ianbatesauthor.com`, hosted on Vercel (DNS for ianbatesauthor.com is on Vercel; there is no main site at the bare domain).
 
 | Folder | Live address |
 |---|---|
