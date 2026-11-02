@@ -3,5 +3,5 @@ Options -Indexes
 DirectoryIndex index.html
 
 RewriteEngine On
-# The bare subdomain has no page of its own: send visitors to the main author site.
-RewriteRule ^$ https://ianbatesauthor.com/ [R=302,L]
+# The bare subdomain has no page of its own: send visitors to the current book page.
+RewriteRule ^$ /thanks-for-nothing/ [R=302,L]

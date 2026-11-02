@@ -3,7 +3,7 @@
 One Vercel site holding every book landing page used for Facebook ad tests.
 Each book gets its own folder; the folder name is the page's web address.
 
-Domain: `books.ianbatesauthor.com`, hosted on Vercel (DNS for ianbatesauthor.com is on Vercel). This repo also serves a GitHub Pages test at asherquinn.com (see `CNAME`).
+Domain: `books.ianbatesauthor.com`, hosted on Vercel (DNS for ianbatesauthor.com is on Vercel; there is no main site at the bare domain). This repo also serves a GitHub Pages test at asherquinn.com (see `CNAME`).
 
 | Folder | Live address |
 |---|---|
@@ -15,8 +15,8 @@ Each page's `og:image` (the Facebook link-preview picture) uses the full
 ## How it's laid out
 
 ```
-vercel.json             site-wide rules on Vercel (root goes to ianbatesauthor.com)
-index.html              root page: forwards to ianbatesauthor.com (for hosts without rules)
+vercel.json             site-wide rules on Vercel (root goes to /thanks-for-nothing/)
+index.html              root page: forwards to /thanks-for-nothing/ (for hosts without rules)
 .htaccess               the same rules for Apache/cPanel hosting
 thanks-for-nothing/
   index.html            the page
